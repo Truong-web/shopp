@@ -1,0 +1,227 @@
+/* Mobile & table */
+@media (max-width:1023px){
+    :root {
+        --header-height:68px;
+        --header-nav:0px;
+    }
+    
+    .hide-on-mobile-table{
+        display: none;
+    }
+    .mobile__category {
+        color: #555;
+        display: flex;
+        overflow-x: auto;
+        
+    }
+    .mobile__category-list {
+        list-style: none;
+        flex-shrink: 0;
+        border-radius: 10px;
+        margin: 5px 5px;
+        
+        
+    }
+    .mobile__category-list:nth-of-type(3n + 1) {
+        background-color: rgb(7, 182, 144);
+    }
+    .mobile__category-list:nth-of-type(3n + 2) {
+        background-color: rgb(9, 211, 70);
+    }
+    .mobile__category-list:nth-of-type(3n + 3) {
+        background-color: rgb(161, 202, 11);
+    }
+    .mobile__category-link {
+        display: block;
+        width: 110px;
+        height: 40px;
+        text-decoration: none;
+        color:white;
+        line-height:2rem;
+        font-size: 1.4rem;
+        text-align: center;
+        
+    }
+   
+    /* cart */
+    .header__cart-list-contents {
+        max-height: 30vh;
+
+    }
+    .header__bottom-cart {
+        width: 80px;
+        position: relative;
+        margin: 0;
+    }
+    .header__cart-list::before {
+        display: none;
+    }
+    .header__cart-list {
+        position: fixed;
+        right: 0;
+        top:var(--header-height);
+        width: 100%;
+        padding: 0 calc(( 100% - 644px) / 2);
+    }
+
+    .header__bottom-cart {
+    width: 80px;
+    position: relative;
+    }
+
+}
+/* Table */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-on-table{
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+    .header__bottom-img {
+        width: 70px;
+    }
+    
+    .header__sort-bar {
+        display: flex;
+    }
+    .header__bottom-search {
+        position: relative;
+    }
+    .header__bottom-history {
+        position: absolute;
+    }
+    .container {
+        padding-top: 8px;
+        margin-top: calc(var(--header-height) + var(--header-bar));
+    }
+    .m__colum-2-10 {
+        width: 33.334%;
+    }
+    .footer__heading{
+        text-align: center;
+    }
+    .footer__item {
+        text-align: center;
+    }
+    .footer__list-img {
+        justify-content: center;
+    }
+    
+}
+/* Moble */
+@media (max-width:739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+    .header__sort-bar {
+        display: flex;
+    }
+    .pagination__list-item {
+        margin: 0;
+    }
+    .container {
+        padding-top: 8px;
+        margin-top: calc(var(--header-height) + var(--header-bar));
+    }
+    .m__colum-2-10 {
+        width: 50%;
+    }
+    .footer__heading{
+        text-align: center;
+    }
+    .footer__item {
+        text-align: center;
+    }
+    .footer__list-img {
+        justify-content: center;
+    }
+    .t_colum-10 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+    .grid__row {
+        margin: 0;
+    }
+    .t-colum-2-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%;
+    }
+    .header__bottom {
+        justify-content: space-between;
+    }
+    .header__bottom-img {
+        width: auto;
+        flex: 1;
+        text-align: center;
+    }
+    .header__cart-icon {
+        margin: 0 16%;
+    }
+    .mobile__search {
+        display: block;
+        
+    }
+    .mobile__search .mobile__search-icon{
+        font-size: 2.6rem;
+        width: 40px;
+        text-align: center;
+        line-height: var(--header-height);
+        
+    }
+
+    #mobile__search-input:checked ~ .header__bottom-search {
+        display: flex;
+    }
+    .mobile__user {
+        display: block;
+        
+
+    }
+    .mobile__user i {
+        font-size: 2.6rem;
+        width: 40px;
+        line-height: var(--header-height);
+        text-align: center;
+        
+
+    }
+    .header__bottom-history {
+        position: fixed;
+        width: 100%;
+    }
+    .header__bottom-search {
+        position: fixed;
+        top:var(--header-height);
+        animation: search linear 0.2s;
+        z-index: 2;
+        box-shadow: 0 0.2px 0.3px rgb(110, 108, 108);
+        display: none;
+    }
+    @keyframes search {
+        from {
+            opacity: 0;
+            top:calc(var(--header-height) /2);
+
+        }
+        to {
+            opacity: 1;
+            top:var(--header-height);
+        }
+        
+    }
+    
+}

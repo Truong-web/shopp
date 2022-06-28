@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">   
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <!-- header nav -->
+                <nav class="header__nav hide-on-mobile-table">
+                    <!-- header left -->
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item-space header-qr">Vào cửa hàng ứng dụng HT
+                            <!-- QR code -->
+                            <div class="header__qr">
+                                <img src="/assets/img/qr_code.png" alt="" class="header__img-qr">
+                                <div class="header__app-gg">
+                                    <img src="/assets/img/google_play.png" alt="" class="header__img-qr-g">
+                                    <img src="/assets/img/app_store.png" alt="" class="header__img-qr-a">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__nav-item"><span class="header__nav-item-no_cursor">Kết nối</span> 
+                            <a href="" class="header__nav-icon-link"><i class="icon_nav fa-brands fa-facebook"></i> </a>
+                            <a href="" class="header__nav-icon-link"><i class="icon_nav fa-brands fa-instagram"></i> </a>
+                        </li>
+                    </ul>
+                    <!-- header nav right -->
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link"><i class="icon_nav fa-solid fa-bell"></i>Thông báo</a>
+                             <div class="header__notify">
+                                <h3 class="header__notify-top" >Thông báo mới nhận</h3>
+                                <div class="header__notify-contents">
+                                   <div class="header__notify-content">
+            
+                                        <img src="./assets/img/vi tien.jpg" alt="" class="header__notify-img">
+                             <!-- header hiện thông báo -->
+                                        <div class="header__notify-right">
+                                           <div class="header__notify-name"> <a href=""> Ví Nam Da Bò Thật 100% Cao Cấp Siêu Bền </a></div>
+                                           <div class="header__notify-describe"><a href="">Đã hoàn thành khâu kiểm tra hàng</a></div>
+                                       </div>
+                        
+                                </div>
+                                <div class="header__notify-content">
+            
+                                    <img src="./assets/img/aolen.jpg" alt="" class="header__notify-img">
+                                    <div class="header__notify-right">
+                                       <div class="header__notify-name"> <a href=""> Áo len cổ tròn Sale 50% </a></div>
+                                       <div class="header__notify-describe"><a href="">Giá trỉ còn 170.000 đ</a></div>
+                                   </div>
+                    
+                            </div>
+                            <div class="header__notify-content">
+            
+                                <img src="./assets/img/thatlung.jpg" alt="" class="header__notify-img">
+                                <div class="header__notify-right">
+                                   <div class="header__notify-name"> <a href=""> Thắt lưng da cá sấu nối bản 3.5 cm </a></div>
+                                   <div class="header__notify-describe"><a href="">DTA990-01B-H-D</a></div>
+                               </div>
+                
+                        </div>
+                        <div class="header__notify-content">
+            
+                            <img src="./assets/img/maytinh.jpg" alt="" class="header__notify-img">
+                            <div class="header__notify-right">
+                               <div class="header__notify-name"> <a href=""> Laptop Dell Precision Mobile workstation </a></div>
+                               <div class="header__notify-describe"><a href="">Máy tính Dell nổi tiếng về nền tảng, cấu hình tốt và độ bảo mật cao</a></div>
+                           </div>
+            
+                    </div>
+                                </div>
+                                <h3 class="header__notify-bottom"><a href="">Xem tất cả</a> </h3>
+                             </div>
+                        
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link"><i class="icon_nav fa-solid fa-circle-question"></i>Trợ giúp</a></li>
+                        <!-- <li class="header__nav-item header__nav-item-width header__nav-item-space ">Đăng kí</li>
+                        <li class="header__nav-item header__nav-item-width">Đăng nhập</li> -->
+                         <li class="header__nav-item header__nav-item-log">
+                            <img src="./assets/img/avatar2.jpg" alt="" class="header__nav-avatar">
+                            <span class="header__nav-item-name">Tạ Hữu Trường</span>
+                           
+                            <ul class="header__nav-list-user">
+                                <li class="header__nav-menu"><a href="">Tài khoản của tôi</a></li>
+                                <li class="header__nav-menu"><a href="">Địa chỉ của tôi</a></li>
+                                <li class="header__nav-menu"><a href="">Đơn mua</a></li>
+                                <li class="header__nav-menu header__nav-menu--border "><a href="">Đăng xuất</a></li>
+            
+                            </ul>
+
+                        </li>
+                      
+                    </ul>
+
+    
+                </nav>
+                <!-- header bottom -->
+                <div class="header__bottom">
+                     <!-- mobile user -->
+                     <label for="mobile__user-input" class="mobile__user">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox"  hidden id="mobile__user-input">
+                    <label for="mobile__user-input" class="overlow__mobile"></label>
+                    <ul class="mobile__nav-list-user">
+                        <li class="mobile__nav-list mobile__nav-header ">Tài khoản</li>
+                        <li class="mobile__nav-list"><a href="" class="mobile__nav-link">Tài khoản của tôi</a></li>
+                        <li class="mobile__nav-list"><a href="" class="mobile__nav-link">Địa chỉ của tôi</a></li>
+                        <li class="mobile__nav-list"><a href="" class="mobile__nav-link">Đơn mua</a></li>
+                        <li class="mobile__nav-list mobile__nav-list--border "><a href="" class="mobile__nav-link">Đăng xuất</a></li>
+                        <li class="mobile__nav-list mobile__nav-list--border "><a href="" class="mobile__nav-link">Đăng nhập</a></li>
+    
+                    </ul>
+
+                    <!--  -->
+                    <label for="mobile__search-input" class="mobile__search">
+                        <i class="mobile__search-icon fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <div class="header__bottom-img">
+                        <a href=""><i class="fa-solid fa-bag-shopping"></i><span class="span hide-on-table">Shop</span></a>
+                    </div>
+                    <!-- search -->
+                    <input type="checkbox" hidden  id="mobile__search-input">
+                    <div class="header__bottom-search">
+                        <div class="header__bottom-search--input">
+                            <input type="text" class="header__bottom-search-input" placeholder="Nhập để tìm kiếm">
+                             <div class="header__bottom-history">
+                                <h3 class="header__history-header">Lịch sử tìm kiếm</h3>
+                                <ul class="header__history-text">
+                                    <li class="history__text">
+                                        <a href="">Sửa rửa mặt</a>
+                                    </li>
+                                    <li class="history__text">
+                                        <a href="">Dầu gội đầu</a>
+                                    </li>
+                                    <li class="history__text">
+                                        <a href="">Thắt lưng đẹp</a>
+                                    </li>
+                                </ul>
+                             </div>
+                        </div>
+            <!-- Trong shop ngoài shop -->
+                        <div class="header__bottom-search-umbrella">
+                            <div class="header__bottom-search-text">Trong shop<i class="fa-solid fa-angle-down"></i>
+                            <div class="header__bottom-option">
+                                <p class="header__bottom-option-text">Trong shop<i class="fa-solid fa-check"></i></i>
+                                    <p class="header__bottom-option-text">Ngoài shop<i class="fa-solid fa-check"></i></i>   
+                            </div>
+                            </div>
+                        </div>
+                        <div class="header__bottom-search-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <!-- Cart -->
+                    <div class="header__bottom-cart">
+                         <div class="header__cart-icon">
+                             <i class=" cart_icon fa-solid fa-cart-arrow-down"></i>
+                             <span class="cart__number">6</span>
+                             <!--No cart: header__cart-list-no-cart -->
+                             <div class="header__cart-list ">
+                                <img src="/assets/img/no-cart.png" alt="" class="no_cart-img">
+                                <span class="header__cart-no-cart-msg">Chưa có sản phẩm</span>
+
+                                <h3 class="header__cart-header">Sản Phẩm Đã Thêm</h3>
+                                <ul class="header__cart-list-contents">
+                                    <!-- sản phẩm 1 -->
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/Cap.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Túi xách gucci marmont chuẩn hàng nhập khẩu </div>
+                                                <div class="cart__top-text2">1.200.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Túi</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- sản phẩm 2 -->
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/giay.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Giày  </div>
+                                                <div class="cart__top-text2">700.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Giày</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- sản phẩm 3 -->
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/mu.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Mũ lưỡi chai xịn sò </div>
+                                                <div class="cart__top-text2">200.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Mũ</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/Cap.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Túi xách gucci marmont chuẩn hàng nhập khẩu </div>
+                                                <div class="cart__top-text2">1.200.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Túi</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- sản phẩm 2 -->
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/giay.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Giày  </div>
+                                                <div class="cart__top-text2">700.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Giày</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- sản phẩm 3 -->
+                                    <li class="header__cart-list-content">
+                                        <div class="cart__list-img">
+                                            <img src="./assets/img/mu.jpg" alt="" class="cap_img">
+                                        </div>
+                                        <div class="cart__list-content">
+                                            <div class="cart__list-content-top">
+                                                <div class="cart__top-text">Mũ lưỡi chai xịn sò </div>
+                                                <div class="cart__top-text2">200.000₫ <span>x1</span></div>
+                                            </div>
+                                            <div class="cart__list-content-bottom">
+                                                <div class="cart__bottom-text">Phân loại hàng:Mũ</div>
+                                                <div class="cart_bottom-text2">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header__cart-footer"><a href="#"> Xem giỏ hàng</a></button>
+                             
+                            </div>
+
+                        </div>
+                        
+                </div>
+
+            </div>
+            </div>   
+            <ul class="header__sort-bar">
+                <li class="header__sort-list header__sort-list-space"><a href="" class="header__sort-link">
+                    Liên quan
+                </a></li>
+                <li class="header__sort-list header__sort-list-space "><a href="" class="header__sort-link  header__sort-active">
+                    Mới nhất
+                </a></li>
+                <li class="header__sort-list header__sort-list-space"><a href="" class="header__sort-link">
+                    Bán chạy
+                </a></li>
+                <li class="header__sort-list"><a href=""class="header__sort-link">
+                   Giá
+                </a></li>
+
+            </ul>
+        </header>
+          
+
+        <!-- content -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="grid__row">
+                    <!-- Danh mục -->
+                    <div class="grid__colum-2 hide-on-mobile-table">
+                        <nav class="category ">
+                            <h3 class="category__header">
+                                <i class="category__header-icon fa-solid fa-list"></i>Danh mục
+                            </h3>
+                            <div class="category__bottom">
+                                <ul class="category__bottom-list">
+                                    <li class="category__bottom-list-1 category__bottom-list-active">
+                                       <a href="#">Máy tính</a> 
+                                    </li>
+                                    <li class="category__bottom-list-1">
+                                       <a href="#">Đồ gia dụng cao cấp</a> 
+                                    </li>
+                                    <li class="category__bottom-list-1">
+                                       <a href="#">Mỹ phẩm,son phấn</a> 
+                                    </li>
+                                    <li class="category__bottom-list-1">
+                                        <a href="#">Quần áo nam</a>
+                                    </li>
+                                    <li class="category__bottom-list-1">
+                                        <a href="#">Dụng cụ học tập</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+
+                    </div>
+                   
+                    <div class="grid__colum-10 t_colum-10">
+                        <!-- Mobile category -->
+          <ul class="mobile__category">
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Máy tính</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Đồ gia dụng cao cấp</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Mỹ phẩm,son phấn</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Quần áo nam</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Dụng cụ học tập</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Mỹ phẩm,son phấn</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Máy tính</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Đồ gia dụng cao cấp</a></li>
+            <li class="mobile__category-list"><a href="" class="mobile__category-link">Mỹ phẩm,son phấn</a></li>
+        </ul>
+                        <div class="product">
+                            <!-- sắp xếp theo -->
+                            <div class="product__header hide-on-mobile-table">
+                                <span class="product__header-label">Sắp xếp theo</span>
+                                <button class="product__btn"><a href="#">Phổ biến</a> </button>
+                                <button class="product__btn product__btn-active "><a href="#">Mới nhất</a></button>
+                                <button class="product__btn"><a href="#">Bán chạy</a></button>
+                                <div class="select__input">
+                                    <span class="label__input">Giá</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <ul class="select__input-lists">
+                                        <li class="select__input-list"><a href="#"> Giá Thấp đến cao</a></li>
+                                        <li class="select__input-list"><a href="#">Giá Cao đến thấp</a></li>
+                                    </ul>
+                                </div>
+                                <div class="select__number">
+                                    <div class="select__number-currents"><span class="select__number-current">1</span>/14</div>
+                                    <div class="select_number-page">
+                                        <a href=""><i class="select_number-page-left fa-solid fa-angle-left"></i></a>
+                                        <a href=""><i class="select_number-page-right fa-solid fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                         <!--các sản phẩm  -->
+                            <div class="product__bottom">
+                                <div class="grid__row ">
+                                    <!-- sp 1 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12 ">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh.jpg)"></div>
+                                            <h3 class="product__bottom-name">Máy tính Dell inspiron 15 3000 Series Core i5 giá rẻ tại Hà Nội</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.00.000đ</span>
+                                                <span class="product__price-new">14.400.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div>  
+                                    <!-- sp 2 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh3.jpg)"></div>
+                                            <h3 class="product__bottom-name">Dell Inspiron 3511 | Intel Core i3-1115G4 | Ram 4GB | SSD 128GB | Intel UHD Graphics | Màn hình 15.6 Full HD</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">15.000.000đ</span>
+                                                <span class="product__price-new">12.000.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">20%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- sp 3  -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh2.jpg)"></div>
+                                            <h3 class="product__bottom-name">Dell Inspiron 3511 | Intel Core i5-1135G7 | Ram 8GB | SSD 256GB | Intel Iris Xe | Màn hình 15.6 Full HD</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.000.000đ</span>
+                                                <span class="product__price-new">14.400.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Anh</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 4 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh4.png)"></div>
+                                            <h3 class="product__bottom-name">Laptop Dell Latitude 3420 - L3420I5SSD</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">12.500.000đ</span>
+                                                <span class="product__price-new">10.625.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Hàn Quốc</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">15%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 5 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh.jpg)"></div>
+                                            <h3 class="product__bottom-name">Máy tính Dell inspiron 15 3000 Series Core i3 giá rẻ tại Hà Nội</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">10.500.000đ</span>
+                                                <span class="product__price-new">9.450.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 80 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 6 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh5.png)"></div>
+                                            <h3 class="product__bottom-name">Laptop HP 15s-fq2561TU - 46M29PA - Chính hãng (i5-1135G7,8GB RAM,512GB SSD,Intel Graphics,15.6"HD,Wlan ac+BT,3cell,Win 11)</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">15.000.000đ</span>
+                                                <span class="product__price-new">13.500.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 33 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Mỹ</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 7 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh6.png)"></div>
+                                            <h3 class="product__bottom-name">Laptop HP 15s-du1105TU - 2Z6L3PA - Chính hãng (i3-10110U,4GB RAM,256GB SSD, Intel Graphics,15.6''HD,Wlan ac+BT,3cell,Win 10 Home)</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">13.490.000đ</span>
+                                                <span class="product__price-new">11.390.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Mỹ</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 8 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh7.jpg)"></div>
+                                            <h3 class="product__bottom-name">Máy tính xách tay Dell Vostro 5459A - P68G001-TI54502 (Gold)</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.990.000đ</span>
+                                                <span class="product__price-new">16.140.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 58 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">5%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 9 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh8.png)"></div>
+                                            <h3 class="product__bottom-name">Máy tính xách tay Dell Inspiron 5567-70087403 (Black)- Intel Kabylake hoàn toàn mới</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">12.190.000đ</span>
+                                                <span class="product__price-new">11.210.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 90 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Anh</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">8%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 10 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh9.jpg)"></div>
+                                            <h3 class="product__bottom-name">
+                                                Laptop Dell Latitude E7440 Core i7</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">11.500.000đ</span>
+                                                <span class="product__price-new">10.350.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">10%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 11 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh10.jpg)"></div>
+                                            <h3 class="product__bottom-name">Máy tính Dell inspiron 15 3000 Series Core i7 giá rẻ tại Hà Nội</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.500.000đ</span>
+                                                <span class="product__price-new">15.180.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 65 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Mỹ</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">8%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div>  
+                                    <!-- 12 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh12.jpg)"></div>
+                                            <h3 class="product__bottom-name">Laptop Dell Inspiron 15 3511 i5 1135G7/4GB/512GB/OfficeHS/Win11 (P112F001DBL)</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.990.000đ</span>
+                                                <span class="product__price-new">16.140.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">5%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                    <!-- 13 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh11.jpg)"></div>
+                                            <h3 class="product__bottom-name">Laptop Dell Vostro 3405 R5 3500U/8GB/512GB/Win10 (V4R53500U003W)</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">15.990.000đ</span>
+                                                <span class="product__price-new">15.140.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 56 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">5%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div>  
+                                     <!--14  -->
+                                     <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh14.png)"></div>
+                                            <h3 class="product__bottom-name">Laptop Dell Vostro 3510 (7T2YC2) (i5 1135G7 8GB RAM/512GB SSD/15.6 inch FHD/Win11/OfficeHS21/Đen</h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">14.990.000đ</span>
+                                                <span class="product__price-new">14.240.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 62 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">5%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div>  
+                                    <!-- 15 -->
+                                    <div class="grid__colum-2-10 t-colum-2-10 t-colum-2-12">
+                                        <a href="#" class="product__bottom-item">
+                                            <div class="product__bottom-img" style="background-image: url(./assets/img/maytinh13.jpg)"></div>
+                                            <h3 class="product__bottom-name">Laptop Dell Inspiron 15 3515 R5 3450U/8GB/256GB/Office H&S/Win11 (G6GR72) </h3>
+                                            <div class="product__bottom-price">
+                                                <span class="product__price-old">16.990.000đ</span>
+                                                <span class="product__price-new">16.140.000đ</span>
+
+                                            </div>
+                                            <div class="product__bottom-evaluate">
+                                                <!--thêm khi tym product__bottom-evaluate-tymd -->
+                                                <span class="product__bottom-evaluate-tym ">
+                                                    <i class="product__bottom-no-tym fa-regular fa-heart"></i>
+                                                    <i class="product__bottom-tym fa-solid fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="product__bottom-stars">
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="product__bottom-star fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="product__bottom-evaluate-sold"> 50 Đã bán</span>
+                                            
+                                               
+                                            </div>
+                                            <div class="product__bottom-origin">
+                                                <span class="product__bottom-origin-bard">Who</span>
+                                                <span class="product__bottom-origin-name">Nhật bản</span>
+                                            </div>
+                                            <div class="product__bottom-favourite">
+                                                <i class="product__bottom-favourite-icon fa-solid fa-check"></i><span class="product__bottom-favourite-text" >Yêu thích</span>
+                                            </div>
+                                            <div class="product__bottom-sale">
+                                                <span class="product__bottom-sale-num">5%</span>
+                                                <span class="product__bottom-sale-letter">Giảm</span>
+                                            </div>
+                                        </a>
+                                    </div>  
+                                    
+                                   
+                                                        
+                                </div>
+
+
+                            </div>
+                            <!--  page -->
+                            <ul class="pagination">
+                                <li class="pagination__list-item">
+                                    <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                                </li>
+                                <li class="pagination__list-item pagination__list-item-active">
+                                    <a href="">1</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">2</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">3</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">4</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">5</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">...</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="">14</i></a>
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="grid__row">
+                    <div class="grid__colum-2-10 m__colum-2-10">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__item-link">Trung tâm trợ giúp</a> </li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Shop</a></li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Hướng dẫn mua hàng</a></li>
+                        </ul>
+        
+
+                    </div>
+                    <div class="grid__colum-2-10 m__colum-2-10">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__item-link">Giới thiệu</a> </li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Tuyển dụng</a></li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Điều khoản</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="grid__colum-2-10 m__colum-2-10">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__item-link">Máy tính </a> </li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Đồ gia dụng cao cấp</a></li>
+                            <li class="footer__item"><a href="" class="footer__item-link">Quần áo nam</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="grid__colum-2-10 m__colum-2-10">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="" class="footer__item-link"><i class="footer__item-link-icon fa-brands fa-facebook"></i>Facebook</a> </li>
+                            <li class="footer__item"><a href="" class="footer__item-link"><i class="footer__item-link-icon fa-brands fa-instagram"></i>Instagram</a></li>
+                            <li class="footer__item"><a href="" class="footer__item-link"><i class="footer__item-link-icon fa-brands fa-linkedin"></i>Linkedin</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="grid__colum-2-10 m__colum-2-10">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <ul class="footer__list footer__list-img ">
+                            <li class="footer__item"><a href="" class="footer__item-link"><img src="/assets/img/qr_code.png" alt="" class="footer__item-link-qr"></a> </li>
+                            <div class="footer__item-ap">
+                                <li class="footer__item">
+                                    <a href="" class="footer__item-link"><img src="./assets/img/google_play.png" alt="" class="footer__item-link-img"></a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__item-link"><img src="./assets/img/app_store.png" alt="" class="footer__item-link-img"></a>
+                                </li>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__bottom-text">@ 2022 Bản quyền thuộc về Shop</p>
+                </div>
+                
+            </div>
+        </footer>
+
+    </div>
+
+    <!--modal -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div> -->
+<!-- đăng kí -->
+        <!-- <div class="modal__body">
+            <div class="modal__form">
+                <div class="modal__header">
+                    <h3 class="modal__header-title">Đăng kí</h3>
+                    <span class="modal__header-extra">Đăng nhập</span>
+                </div>
+                <div class="modal__content">
+                    <div class="modal__content-input">
+
+                        <input type="text" placeholder="Email/ Số điện thoại" class="modal__input">
+                        <input type="password" placeholder="Password" class="modal__input">
+                        <input type="password" placeholder="Nhập lại password" class="modal__input">
+                    </div>
+                    <div class="modal__content-rules">
+                        <p class="modal__content-text">Bằng việc đăng kí, bạn đã đồng ý với shoppeee về
+                            <a href="">Điều khoản dịch vụ</a> & 
+                            <a href="">Chính sách bảo mật</a></p>
+                    </div>
+                    <div class="modal__contros">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn width_btn">ĐĂNG KÍ</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="modal__footer">
+                <a href="" class="btn btn__color"><i class="fa-brands fa-facebook-square"></i>Kết nối với facebook</a>
+                <a href="" class="btn"><i class="fa-brands fa-google"></i>Kết nối với google</a>
+            </div>
+        </div>
+
+ 
+    </div> -->
+<!-- đăng nhập -->
+    <!-- <div class="modal__body">
+        <div class="modal__form">
+            <div class="modal__header">
+                <h3 class="modal__header-title">Đăng Nhập</h3>
+                <span class="modal__header-extra">Đăng kí</span>
+            </div>
+            <div class="modal__content">
+                <div class="modal__content-input">
+
+                    <input type="text" placeholder="Email/ Số điện thoại" class="modal__input">
+                    <input type="password" placeholder="Password" class="modal__input">
+                    
+                </div>
+                <div class="modal__content-rules">
+                    <p class="modal__content-tex">
+                        <a href="" class="modal__content-text-pass">Quên mật khẩu</a>
+                        <span class="modal__content-text-space"></span>
+                        <a href="" class="modal__content-text-help">Cần trợ giúp ?</a></p>
+                </div>
+                <div class="modal__contros">
+                    <button class="btn">TRỞ LẠI</button>
+                    <button class="btn width_btn">ĐĂNG NHẬP</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="modal__footer">
+            <a href="" class="btn btn__color"><i class="fa-brands fa-facebook-square"></i>Kết nối với facebook</a>
+            <a href="" class="btn"><i class="fa-brands fa-google"></i>Kết nối với google</a>
+        </div>
+    </div> -->
+
+
+
+</div>
+</body>
+</html>
